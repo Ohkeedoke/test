@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>GOGOmedia - test</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700" rel="stylesheet">
+  </head>
+  <body>
+    <div id="vue-app">
+      <header>
+        <img src="img/logo.png" alt="LOGO">
+      </header>
+      <main>
+        <article class="slider">
+            <h1>Heading</h1>
+            <h3>Lorem ipsum dolor sit amen, consect etur adipiscing elit.</h3>
+            <div class='slider_container'>
+              <div @click='getLeft()' class="arrow arrow--left">
+                  <span>&nbsp;</span>
+                  <span>&nbsp;</span>
+              </div>
+              <section class="slider_boxes">
+                <figure class="slider_box">
+                  <div class="content">
+                      <figcaption>Heading</figcaption>
+                      <p>Lorem ipsum dolor sit amen.</p>
+                      <img src="img/wp.png" alt="LOGO">
+                  </div>
+                </figure>
+                <figure class="slider_box">
+                    <div class="content">
+                        <figcaption>Heading</figcaption>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc consectetur velit a tempus blandit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                    </div>
+                </figure>
+                <figure class="slider_box">
+                    <div class="content">
+                        <figcaption>Ultra Mega Super Long Heading</figcaption>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc consectetur velit a tempus blandit. Orci varius natoque penatibus et magnis.</p>
+                    </div>
+                </figure>
+                <figure class="slider_box">
+                    <div class="content">
+                        <figcaption>Extra Heading</figcaption>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc consectetur velit a tempus blandit.</p>
+                    </div>
+                </figure>
+                <figure class="slider_box">
+                    <div class="content">
+                        <figcaption>Super Extra Heading</figcaption>
+                        <p>Head head lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc consectetur velit a tempus blandit.</p>
+                    </div>
+                </figure>
+              </section>
+              <div @click='getRight()' class="arrow arrow--right">
+                  <span>&nbsp;</span>
+                  <span>&nbsp;</span>
+              </div>
+            </div>
+            <div class='circle'>&nbsp;</div>
+          </article>
+          <article class="basic">
+              <h1>Heading</h1>
+              <h3>Lorem ipsum dolor sit amen, consect etur adipiscing elit.</h3>
+              <h2>Heading</h2>
+              <section class="basic_boxes">
+                <figure class="basic_box">
+                    <div class="content">
+                        <figcaption>Heading</figcaption>
+                        <p>Lorem ipsum dolor sit amen.</p>
+                        <img src="img/eight.png" alt="LOGO">
+                    </div>
+                </figure>
+                <figure class="basic_box">
+                    <div class="content">
+                        <figcaption>Heading</figcaption>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc consectetur velit a tempus blandit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                    </div>
+                </figure>
+                <figure class="basic_box">
+                    <div class="content">
+                        <figcaption>Ultra Mega Super Long Heading</figcaption>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc consectetur velit a tempus blandit. Orci varius natoque penatibus et magnis.</p>
+                    </div>
+                </figure>
+              </section>
+          </article>
+      </main>
+    </div>
+
+    <script src="./dist/js/bundle.js"></script>
+  </body>
+</html>

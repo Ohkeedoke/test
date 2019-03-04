@@ -1,0 +1,32 @@
+@import 'header';
+@import 'main';
+
+body {
+  margin: 0 !important;
+  font-family: 'Rubik', sans-serif;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 40px;
+  margin: 0;
+  padding: 50px 0 5px 0;
+}
+h2 {
+  font-size: 30px;
+  font-weight: 300;
+}
+h3 {
+  font-weight: 300;
+  margin: 10px 0 50px 0;
+}
+figcaption {
+  padding: 35px 20px 0 20px;
+  font-size: 20px;
+}
+p {
+  padding: 0 20px;
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 25px;
+}
